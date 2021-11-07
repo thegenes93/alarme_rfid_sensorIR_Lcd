@@ -84,7 +84,7 @@ void leituraRfid() {
   /***FIM DO BLOCO DE CÓDIGO RESPONSÁVEL POR GERAR A TAG RFID LIDA***/
 
   //O ENDEREÇO "27:41:AA:AB" DEVERÁ SER ALTERADO PARA O ENDEREÇO DA SUA TAG RFID QUE CAPTUROU ANTERIORMENTE
-  if (strID.indexOf("BC:E3:60:18") >= 0 || strID.indexOf("97:EA:DF:C6") >= 0 || strID.indexOf("99:F2:B9:B2") >= 0) { //SE O ENDEREÇO DA TAG LIDA FOR IGUAL AO ENDEREÇO INFORMADO, FAZ
+  if (strID.indexOf("BC:E3:60:19") >= 0 || strID.indexOf("97:EA:DF:C8") >= 0 || strID.indexOf("99:F2:B9:B1") >= 0) { //SE O ENDEREÇO DA TAG LIDA FOR IGUAL AO ENDEREÇO INFORMADO, FAZ
     lcd.clear();
     Serial.println("cartão valido");
     lcd.print("Ativando Alarme");
